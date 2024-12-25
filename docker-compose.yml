@@ -6,7 +6,7 @@ services:
   # The name of the service, which can be used as a hostname within the network
   flaskblog:
     # The image to use for this service, either from a registry or built locally
-    image: dogukanurker/flaskblog:latest
+    image: swastiknath17/flaskblog:latest
     # The name of the container created from this service
     container_name: flaskblog
     # The policy to apply when the container exits (always restart, unless stopped by the user)
